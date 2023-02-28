@@ -15,8 +15,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -115,7 +115,7 @@
       <workItem from="1677527657793" duration="4664000" />
       <workItem from="1677568607465" duration="456000" />
       <workItem from="1677570316889" duration="1489000" />
-      <workItem from="1677573977504" duration="1717000" />
+      <workItem from="1677573977504" duration="9465000" />
     </task>
     <servers />
   </component>

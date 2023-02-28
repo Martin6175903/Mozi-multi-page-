@@ -33,8 +33,10 @@
   }
   &:before {
     transform: rotate(45deg) translate(5px, 4px);
+    background-color: white;
   }
   &:after {
+    background-color: white;
     transform: rotate(-45deg) translate(6px, -5px);
   }
 }

@@ -25,7 +25,7 @@ eval("const modal = __webpack_require__(/*! ./module/burger-menu.js */ \"./src/j
   \**************************************/
 /***/ (function(module) {
 
-eval("module.exports =  {\r\n    burger() {\r\n        let burger = document.querySelector('.burger');\r\n        let menu = document.querySelector('.menu');\r\n        let menuItem = document.querySelector('.menu__item');\r\n\r\n\r\n    }\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://innoma/./src/js/module/burger-menu.js?");
+eval("module.exports =  {\r\n    burgerOpen: false,\r\n    burger() {\r\n        let burger = document.querySelector('.burger');\r\n        let menu = document.querySelector('.menu');\r\n        let menuItem = document.querySelector('.menu__item');\r\n\r\n        burger.style.display = 'block';\r\n\r\n        burger.onclick = function (event) {\r\n            let target = event.target;\r\n\r\n            burger.classList.toggle('modal__menu');\r\n\r\n            if (module.exports.burgerOpen) {\r\n                menu.style.top = '-50%';\r\n                module.exports.burgerOpen = false;\r\n                document.body.style.overflow = 'visible';\r\n            } else {\r\n                menu.style.top = '50%';\r\n                module.exports.burgerOpen = true;\r\n                document.body.style.overflow = 'hidden';\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://innoma/./src/js/module/burger-menu.js?");
 
 /***/ })
 
