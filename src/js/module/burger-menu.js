@@ -5,8 +5,6 @@ module.exports =  {
         let menu = document.querySelector('.menu');
         let menuItem = document.querySelector('.menu__item');
 
-        burger.style.display = 'block';
-
         burger.onclick = function (event) {
             let target = event.target;
 

@@ -1,0 +1,52 @@
+.products {
+  padding: 106px 0 108px;
+  .subtitle {
+    margin-bottom: 97px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+    width: 560px;
+    height: 530px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.08);
+    border-radius: 8px;
+    &-title {
+      margin: 40px 0 32px;
+      font-size: 24px;
+      line-height: 31px;
+      color: #3A3A3C;
+    }
+    &-btn {
+      position: relative;
+      padding-left: 50px;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 24px;
+        bottom: 17.5px;
+        width: 14px;
+        height: 14px;
+        background-image: url("../../../img/MainPage/products/arrow-right.svg");
+      }
+    }
+    &-img {
+      position: absolute;
+      bottom: 0;
+    }
+    &:first-child &-img {
+      left: 10px;
+    }
+    &:last-child &-img {
+      left: 44px;
+    }
+  }
+  &__wrapper {
+    max-width: 352px;
+    margin-top: 64px;
+    margin-left: 62px;
+  }
+}

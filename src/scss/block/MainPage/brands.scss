@@ -1,0 +1,27 @@
+.brands {
+  padding: 101px 0 128px;
+  &__container {
+    max-width: 1052px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 57px;
+    color: $title;
+    margin-bottom: 80px;
+    text-align: center;
+    &-correction {
+      color: $btnColor;
+    }
+  }
+  &__images {
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    margin-right: 40px;
+  }
+  &__last-img {
+    margin-right: 0;
+  }
+}

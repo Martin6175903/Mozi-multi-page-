@@ -1,0 +1,57 @@
+.wrapper__header {
+  background: linear-gradient(252.91deg, #E3E7F6 3.68%, rgba(227, 231, 246, 0) 97.82%);
+}
+.wrapper__edit-header {
+  .edit-header {
+    padding: 129px 0 210px;
+    position: relative;
+    &__img {
+      position: absolute;
+      bottom: 0;
+      right: -85px;
+    }
+    &__title {
+      max-width: 570px;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 62px;
+      color: $title;
+      margin-bottom: 32px;
+    }
+    &__subtitle {
+      font-size: 22px;
+      line-height: 33px;
+      color: $subtitle;
+      max-width: 512px;
+      margin-bottom: 40px;
+    }
+    &__btn {
+      padding: 14px 32px;
+      border: 1px solid $btnColor;
+      border-radius: 6px;
+      font-size: 16px;
+      line-height: 150%;
+      &:first-child {
+        background-color: $btnColor;
+        color: white;
+        margin-right: 16px;
+        letter-spacing: 0.0025em;
+        &:hover {
+          transition: all .3s;
+          background-color: #e90e3e;
+        }
+      }
+      &:last-child {
+        background-color: transparent;
+        color: $btnColor;
+        letter-spacing: 0.005em;
+        &:hover {
+          transition: all .3s;
+          background-color: $btnColor;
+          color: white;
+        }
+      }
+    }
+  }
+}
+

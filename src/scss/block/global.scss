@@ -21,6 +21,7 @@
 
 body {
   font-family: 'Europa', sans-serif;
+  overflow-x: hidden;
   &.locked {
     overflow: hidden;
   }
@@ -45,6 +46,38 @@ body {
     transition: all .3s;
     background-color: #e90e3e;
   }
+}
+
+.btn__title {
+  padding: 14px 32px;
+  border: 1px solid $btnColor;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 150%;
+  background-color: transparent;
+  color: $btnColor;
+  letter-spacing: 0.005em;
+  &:hover {
+    transition: all .3s;
+    background-color: $btnColor;
+    color: white;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+  color: $title;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 27px;
+  color: $subtitle;
+  text-align: center;
 }
 
 @keyframes fade {

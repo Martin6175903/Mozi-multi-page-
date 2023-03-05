@@ -7,7 +7,7 @@
     position: absolute;
     height: 3px;
     width: 27px;
-    background-color: $btnColor;
+    background-color: $title;
     transition: all .3s ease;
   }
   &:before {
@@ -18,7 +18,7 @@
   }
   & span {
     position: absolute;
-    background-color: $btnColor;
+    background-color: $title;
     height: 3px;
     top: 11.5px;
     left: 0;

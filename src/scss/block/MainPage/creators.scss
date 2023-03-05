@@ -1,0 +1,18 @@
+.creators {
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  padding: 256px 0 264px;
+  &__container {
+    position: relative;
+  }
+  &__inner {
+    max-width: 416px;
+  }
+  &__title, &__subtitle {
+    text-align: left;
+  }
+  &__img {
+    position: absolute;
+    left: 585px;
+    top: -185px;
+  }
+}
