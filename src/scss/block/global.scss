@@ -57,6 +57,7 @@ body {
   background-color: transparent;
   color: $btnColor;
   letter-spacing: 0.005em;
+  cursor: pointer;
   &:hover {
     transition: all .3s;
     background-color: $btnColor;
@@ -73,11 +74,19 @@ body {
   text-align: center;
 }
 
+.title.title__left {
+  text-align: left;
+}
+
 .subtitle {
   font-size: 16px;
   line-height: 27px;
   color: $subtitle;
   text-align: center;
+}
+
+.subtitle.subtitle__left {
+  text-align: left;
 }
 
 @keyframes fade {

@@ -1,0 +1,16 @@
+.ideas {
+  padding: 217px 0 242px;
+  background: linear-gradient(335.73deg, #E3E7F6 12.46%, rgba(227, 231, 246, 0) 84.19%);
+  &__inner {
+    position: relative;
+    max-width: 363px;
+  }
+  &__img {
+    position: absolute;
+    left: 548px;
+    top: -134px;
+  }
+  &__subtitle {
+    margin-bottom: 16px;
+  }
+}
