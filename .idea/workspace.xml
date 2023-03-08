@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/MainPage/creators.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/MainPage/innovation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/module/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/block/MainPage/creators.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/block/MainPage/innovation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Europa-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Europa-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Europa-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/MainPage/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/MainPage/Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/MainPage/header-bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/MainPage/header-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/MainPage/editionHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/editionHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/module/burger-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/burger-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/wrapper-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/MainPage/innovation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/innovation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/MainPage/innovation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/MainPage/innovation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +78,10 @@
       <recent name="D:\innoma\src\html" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
+  <component name="RunManager" selected="JavaScript Debug.innovation.html">
+    <configuration name="innovation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mozi/src/html/MainPage/innovation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/main.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -103,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.innovation.html" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="npm.start" />
@@ -143,7 +141,11 @@
       <workItem from="1677684596303" duration="6785000" />
       <workItem from="1677701990461" duration="9388000" />
       <workItem from="1677964506609" duration="3303000" />
-      <workItem from="1678023364788" duration="3238000" />
+      <workItem from="1678023364788" duration="7060000" />
+      <workItem from="1678086305598" duration="17541000" />
+      <workItem from="1678174816072" duration="4621000" />
+      <workItem from="1678191918131" duration="15351000" />
+      <workItem from="1678266754069" duration="1559000" />
     </task>
     <servers />
   </component>
