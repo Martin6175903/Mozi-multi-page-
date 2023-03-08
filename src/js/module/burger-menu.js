@@ -3,10 +3,8 @@ module.exports =  {
     burger() {
         let burger = document.querySelector('.burger');
         let menu = document.querySelector('.menu');
-        let menuItem = document.querySelector('.menu__item');
 
         burger.onclick = function (event) {
-            let target = event.target;
 
             burger.classList.toggle('modal__menu');
 

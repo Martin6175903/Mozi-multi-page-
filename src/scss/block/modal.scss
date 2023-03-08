@@ -2,7 +2,9 @@
   width: 27px;
   height: 26px;
   position: relative;
+  cursor: pointer;
   &:before, &:after {
+    z-index: 1001;
     content: '';
     position: absolute;
     height: 3px;

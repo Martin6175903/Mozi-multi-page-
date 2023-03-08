@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7038987-fb6e-436c-8100-327e4203a685" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/MainPage/ideas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/block/MainPage/ideas.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/MainPage/creators.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/MainPage/creators.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/chunk/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/chunk/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/burger-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/burger-menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/edit-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/edit-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/block/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/block/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/block/vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +143,8 @@
       <workItem from="1678174816072" duration="4621000" />
       <workItem from="1678191918131" duration="15351000" />
       <workItem from="1678266754069" duration="9538000" />
+      <workItem from="1678277003258" duration="31000" />
+      <workItem from="1678301991305" duration="5691000" />
     </task>
     <servers />
   </component>
