@@ -35,7 +35,17 @@ eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPAC
   \************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval("const modal = __webpack_require__(/*! ./module/burger-menu.js */ \"./src/js/module/burger-menu.js\");\r\nconst slider = __webpack_require__(/*! ./module/slider.js */ \"./src/js/module/slider.js\");\r\nmodal.burger();\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
+eval("const modal = __webpack_require__(/*! ./module/burger-menu.js */ \"./src/js/module/burger-menu.js\");\r\nconst slider = __webpack_require__(/*! ./module/slider.js */ \"./src/js/module/slider.js\");\r\nconst brands = __webpack_require__(/*! ./module/brands.js */ \"./src/js/module/brands.js\");\r\nmodal.burger();\r\n\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
+
+/***/ }),
+
+/***/ "./src/js/module/brands.js":
+/*!*********************************!*\
+  !*** ./src/js/module/brands.js ***!
+  \*********************************/
+/***/ (function() {
+
+eval("if (window.innerWidth <= 992 && window.innerWidth > 768) {\r\n    let brandImages = document.querySelector('.brands__images');\r\n    let div1 = document.createElement('div');\r\n    let div2 = document.createElement('div');\r\n    div1.classList.add('brands__items');\r\n    div2.classList.add('brands__items');\r\n\r\n    let lenBrandsImages = brandImages.children.length;\r\n\r\n    for (let i = 0; i < lenBrandsImages; i++) {\r\n        if (i < 4) {\r\n            div1.append(brandImages.children[i - i]);\r\n        } else {\r\n            div2.append(brandImages.children[i - i]);\r\n        }\r\n    }\r\n    brandImages.append(div1, div2);\r\n}\r\n\r\nif (window.innerWidth <= 768 && window.innerWidth > 480) {\r\n    let brandImages = document.querySelector('.brands__images');\r\n    let div1 = document.createElement('div');\r\n    let div2 = document.createElement('div');\r\n    let div3 = document.createElement('div');\r\n    div1.classList.add('brands__items');\r\n    div2.classList.add('brands__items');\r\n    div3.classList.add('brands__items');\r\n\r\n    let lenBrandsImages = brandImages.children.length;\r\n\r\n    for (let i = 0; i < lenBrandsImages; i++) {\r\n        if (i < 3) {\r\n            div1.append(brandImages.children[i - i]);\r\n        } else if (i < 5){\r\n            div2.append(brandImages.children[i - i]);\r\n        } else {\r\n            div3.append(brandImages.children[i - i]);\r\n        }\r\n    }\r\n    brandImages.append(div1, div2, div3);\r\n}\r\n\r\nif (window.innerWidth <= 480) {\r\n    let brandImages = document.querySelector('.brands__images');\r\n    let div1 = document.createElement('div');\r\n    let div2 = document.createElement('div');\r\n    let div3 = document.createElement('div');\r\n    let div4 = document.createElement('div');\r\n    div1.classList.add('brands__items');\r\n    div2.classList.add('brands__items');\r\n    div3.classList.add('brands__items');\r\n    div4.classList.add('brands__items');\r\n\r\n    let lenBrandsImages = brandImages.children.length;\r\n\r\n    for (let i = 0; i < lenBrandsImages; i++) {\r\n        if (i < 2) {\r\n            div1.append(brandImages.children[i - i]);\r\n        } else if (i < 4){\r\n            div2.append(brandImages.children[i - i]);\r\n        } else if (i < 6) {\r\n            div3.append(brandImages.children[i - i]);\r\n        } else {\r\n            div4.append(brandImages.children[i - i]);\r\n        }\r\n    }\r\n    brandImages.append(div1, div2, div3, div4);\r\n}\n\n//# sourceURL=webpack://innoma/./src/js/module/brands.js?");
 
 /***/ }),
 

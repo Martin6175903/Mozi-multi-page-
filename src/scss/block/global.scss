@@ -7,7 +7,7 @@
   max-width: ($containerWidth + $containerPadding)+px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 $containerPadding+px;
 
   @media (max-width: $breakpoint992) {
     max-width: 970px;
@@ -80,10 +80,29 @@ body {
   color: $title;
   margin-bottom: 16px;
   text-align: center;
+  @media (max-width: $breakpoint992) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  @media (max-width: $breakpoint768) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  @media (max-width: $breakpoint600) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  @media (max-width: $breakpoint480) {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }
 
 .title.title__left {
   text-align: left;
+  @media (max-width: $breakpoint768) {
+    text-align: center;
+  }
 }
 
 .subtitle {
@@ -95,6 +114,9 @@ body {
 
 .subtitle.subtitle__left {
   text-align: left;
+  @media (max-width: $breakpoint768) {
+    text-align: center;
+  }
 }
 
 @keyframes fade {
