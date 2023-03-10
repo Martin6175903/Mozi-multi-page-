@@ -7,6 +7,21 @@
     padding: 55px 0 64px;
     display: flex;
     justify-content: space-between;
+    @media (max-width: $breakpoint768) {
+      display: block;
+    }
+  }
+  &__box {
+    @media (max-width: $breakpoint768) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    @media (max-width: $breakpoint600) {
+      display: block;
+      text-align: center;
+    }
   }
   &__title {
     margin-top: 25px;
@@ -14,15 +29,46 @@
     line-height: 27px;
     color: #fff;
     max-width: 287px;
+    @media (max-width: $breakpoint768) {
+      margin-top: 0;
+    }
+    @media (max-width: $breakpoint600) {
+      margin: 15px auto;
+    }
   }
   &__items {
     display: flex;
+    @media (max-width: $breakpoint768) {
+      justify-content: space-around;
+    }
+    @media (max-width: $breakpoint480) {
+      justify-content: space-between;
+    }
   }
   &__item:not(:nth-child(1)) {
     margin-left: 97px;
+    @media (max-width: $breakpoint992) {
+      margin-left: 60px;
+    }
+    @media (max-width: $breakpoint480) {
+      margin-left: 20px;
+    }
+  }
+  &__item:nth-child(1) {
+    @media (max-width: $breakpoint768) {
+      margin-left: 60px;
+    }
+    @media (max-width: $breakpoint600) {
+      margin-left: 0;
+    }
   }
   &__item:nth-child(3) {
-
+    @media (max-width: $breakpoint768) {
+      margin-right: 60px;
+    }
+    @media (max-width: $breakpoint600) {
+      margin-right: 0;
+    }
   }
   &__list-item:nth-child(1) {
     margin-bottom: 30px;
@@ -34,16 +80,28 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    @media (max-width: $breakpoint480) {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
   &__list-link {
     color: #fff;
     font-size: 16px;
     line-height: 20px;
+    @media (max-width: $breakpoint480) {
+      font-size: 13px;
+      line-height: 18px;
+    }
   }
   &__links-link {
     font-size: 17px;
     line-height: 20px;
     letter-spacing: -0.231818px;
+    @media (max-width: $breakpoint480) {
+      font-size: 14px;
+      line-height: 18px;
+    }
   }
   &__links-items {
     margin-top: 40px;
@@ -60,11 +118,20 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      @media (max-width: $breakpoint480) {
+        flex-direction: column;
+      }
     }
     &-item {
       color: #fff;
       font-size: 16px;
       line-height: 20px;
+    }
+    &-item:first-child {
+      color: #fff;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 15px;
     }
   }
 }
