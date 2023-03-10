@@ -11,17 +11,14 @@
 
   @media (max-width: $breakpoint992) {
     max-width: 970px;
-    padding-right: 10px;
   }
 
   @media (max-width: $breakpoint768) {
     max-width: 750px;
-    padding-right: 10px;
   }
 
   @media (max-width: $breakpoint480) {
     max-width: none;
-    padding-right: 10px;
   }
 }
 
@@ -30,6 +27,10 @@
 body {
   font-family: 'Europa', sans-serif;
   overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   &.locked {
     overflow: hidden;
   }
