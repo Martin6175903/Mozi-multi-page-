@@ -1,0 +1,43 @@
+.hiring {
+  position: relative;
+  padding: 155px 0 278px;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  &__info {
+    &-box {
+      margin-left: 83px;
+      max-width: 334px;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 57px;
+      color: $title;
+    }
+    &-subtitle {
+      font-size: 16px;
+      line-height: 27px;
+      color: $subtitle;
+    }
+    &-subtitle:nth-child(2) {
+      margin-top: 16px;
+      margin-bottom: 40px;
+    }
+    &-btn {
+      position: relative;
+      &:before {
+        position: absolute;
+        left: 65px;
+        bottom: -75px;
+        content: '';
+        background: url("../../../img/aboutPage/hiring/btn-title.svg");
+        width: 211px;
+        height: 58px;
+      }
+    }
+    &-img {
+      position: absolute;
+      left: 666px;
+      top: 150px;
+    }
+  }
+}

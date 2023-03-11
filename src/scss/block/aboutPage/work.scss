@@ -1,0 +1,32 @@
+.work {
+  position: relative;
+  padding: 215px 0 242px;
+  &__info {
+    display: flex;
+    justify-content: flex-end;
+    &-box {
+      margin-left: 66px;
+      max-width: 415px;
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 57px;
+      color: $title;
+    }
+    &-subtitle {
+      font-size: 16px;
+      line-height: 27px;
+      color: $subtitle;
+    }
+    &-subtitle:nth-child(2) {
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+    &-img {
+      position: absolute;
+      left: 166px;
+      top: 104px;
+    }
+  }
+}
