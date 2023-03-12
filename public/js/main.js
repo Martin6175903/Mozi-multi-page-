@@ -35,7 +35,7 @@ eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPAC
   \************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval("const modal = __webpack_require__(/*! ./module/burger-menu.js */ \"./src/js/module/burger-menu.js\");\r\nconst slider = __webpack_require__(/*! ./module/slider.js */ \"./src/js/module/slider.js\");\r\nconst brands = __webpack_require__(/*! ./module/brands.js */ \"./src/js/module/brands.js\");\r\nmodal.burger();\r\n\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
+eval("const modal = (__webpack_require__(/*! ./module/burger-menu.js */ \"./src/js/module/burger-menu.js\").burger)();\r\nconst brands = __webpack_require__(/*! ./module/brands.js */ \"./src/js/module/brands.js\");\r\nconst slider = __webpack_require__(/*! ./module/checkingPage.js */ \"./src/js/module/checkingPage.js\")();\r\n\r\n\n\n//# sourceURL=webpack://innoma/./src/js/main.js?");
 
 /***/ }),
 
@@ -56,6 +56,16 @@ eval("if (window.innerWidth <= 992 && window.innerWidth > 768) {\r\n    let bran
 /***/ (function(module) {
 
 eval("module.exports =  {\r\n    burgerOpen: false,\r\n    burger() {\r\n        let burger = document.querySelector('.burger');\r\n        let menu = document.querySelector('.menu');\r\n\r\n        burger.onclick = function (event) {\r\n\r\n            burger.classList.toggle('modal__menu');\r\n\r\n            if (module.exports.burgerOpen) {\r\n                menu.style.top = '-50%';\r\n                module.exports.burgerOpen = false;\r\n                document.body.style.overflow = 'visible';\r\n            } else {\r\n                menu.style.top = '50%';\r\n                module.exports.burgerOpen = true;\r\n                document.body.style.overflow = 'hidden';\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n\n\n//# sourceURL=webpack://innoma/./src/js/module/burger-menu.js?");
+
+/***/ }),
+
+/***/ "./src/js/module/checkingPage.js":
+/*!***************************************!*\
+  !*** ./src/js/module/checkingPage.js ***!
+  \***************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("module.exports = () => {\r\n    let href = window.location.href;\r\n    href = href.split('/');\r\n    if (href[href.length - 1] === 'index.html') {\r\n        const slider = __webpack_require__(/*! ./slider.js */ \"./src/js/module/slider.js\");\r\n    }\r\n}\n\n//# sourceURL=webpack://innoma/./src/js/module/checkingPage.js?");
 
 /***/ }),
 
