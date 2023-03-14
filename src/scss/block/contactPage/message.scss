@@ -1,12 +1,24 @@
 .message {
   padding: 102px 0 195px;
-
+  @media (max-width: $breakpoint850) {
+    padding-bottom: 70px;
+  }
+  &__inner {
+    position: relative;
+  }
   &__box {
     max-width: 539px;
     padding: 52px 48px 55px 48px;
     background: #FFFFFF;
     box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
     border-radius: 8px;
+    @media (max-width: $breakpoint992) {
+      max-width: 440px;
+    }
+    @media (max-width: $breakpoint850) {
+      max-width: 500px;
+      margin: 0 auto;
+    }
   }
 
   &__form {
@@ -34,11 +46,18 @@
       border: 1px solid #E3E7F6;
       border-radius: 6px;
       display: block;
+      @media (max-width: $breakpoint850) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
     }
 
     &-textarea {
       height: 150px;
       resize: none;
+      @media (max-width: $breakpoint480) {
+        height: 100px;
+      }
     }
 
     &-btn {
